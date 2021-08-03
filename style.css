@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    margin: 0;
+}
+
+main {
+    width: 85%;
+    margin: 60px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section {
+    padding: 50px;
+}
+
+section#sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+section#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+section#luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size: 42px;
+}
+
+section#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+section#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+section#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+section button {
+    background-color: white;
+    border: none;
+    font-family: inherit;
+    padding: 15px 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: hsl(31, 77%, 52%);
+    padding: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1080px) {
+    main {
+        display: flex;
+        width: 70%;
+    }
+
+    p {
+        margin-bottom: 50px;
+    }
+}
